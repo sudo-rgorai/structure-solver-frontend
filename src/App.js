@@ -69,7 +69,7 @@ function ResponsiveDrawer(props) {
 
   const container = window !== undefined ? () => window().document.body : undefined;
 
-  var structure_image_path = process.env.PUBLIC_URL + 'structure.jpg';
+  var structure_image_path = process.env.PUBLIC_URL + 'structure.png';
 
   return (
     <div className={classes.root}>
